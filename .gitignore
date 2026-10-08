@@ -44,6 +44,12 @@ out/
 
 # 1BRC
 /measurements*.txt
+data/measurements*.txt
 /*.out
 out_expected.txt
 /*-timing.json
+
+# cpp
+src/main/cpp/*
+src/main/cpp/!*.cpp
+!src/main/cpp/Makefile
